@@ -1,0 +1,90 @@
+:root {
+  --font-weight-headings: 600;
+  --font-weight-body: 400;
+
+  --clr-link: #4e80ee;
+  --clr-bg: #d2d5da;
+  --clr-font: #030616;
+  --clr-main: #fff;
+  --clr-hr: #f8fafc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: var(--font-weight-body);
+  line-height: 1.6;
+}
+
+main {
+  background-color: var(--clr-hr);
+  margin-top: 4.5rem;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.first-cont {
+  display: grid;
+  place-content: center;
+}
+
+.second-cont {
+  display: grid;
+  place-content: center;
+  margin-left: 12.5rem;
+}
+
+h1 {
+  font-weight: var(--font-weight-headings);
+  font-size: 2.25rem;
+  text-align: center;
+  margin-top: 2.75rem;
+}
+
+header p {
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: var(--font-weight-headings);
+  margin: 1.7rem 0;
+}
+
+h2 + p {
+  margin-bottom: 1rem;
+}
+
+ol {
+  margin: 0 0 1.5rem 20px;
+  line-height: 1.9;
+}
+
+span {
+  font-weight: bold;
+}
+
+.ol-paragraph {
+  margin-bottom: 2rem;
+}
+
+hr {
+  color: var(--clr-bg);
+}
+
+ul {
+  margin-left: 20px;
+  line-height: 1.9;
+}
+
+.ul-paragraph {
+  margin: 1.5rem 0 3.5rem 0;
+}
